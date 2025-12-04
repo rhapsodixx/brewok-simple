@@ -6,7 +6,12 @@
       "Bash(npm init:*)",
       "Bash(npm install:*)",
       "Bash(npx svelte-kit sync:*)",
-      "Bash(timeout 10 npm run dev)"
+      "Bash(timeout 10 npm run dev)",
+      "Bash(npm test:*)",
+      "Bash(npx vitest:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node --loader tsx --test tests/unit/brewingCalculator.test.ts)",
+      "Bash(node:*)"
     ],
     "deny": [],
     "ask": []
