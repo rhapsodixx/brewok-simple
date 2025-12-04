@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx sv create . --template minimal --types ts --no-add-ons)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npx svelte-kit sync:*)",
+      "Bash(timeout 10 npm run dev)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

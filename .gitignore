@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build artifacts
+.svelte-kit/
+build/
+dist/
+.vercel/
+.netlify/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Temporary execution files
+execution.md
+execution-progress.md
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+.cache/
