@@ -11,7 +11,9 @@
       "Bash(npx vitest:*)",
       "Bash(npx tsc:*)",
       "Bash(node --loader tsx --test tests/unit/brewingCalculator.test.ts)",
-      "Bash(node:*)"
+      "Bash(node:*)",
+      "Bash(npx shadcn-svelte@latest add:*)",
+      "Bash(npx shadcn-svelte@latest init)"
     ],
     "deny": [],
     "ask": []
