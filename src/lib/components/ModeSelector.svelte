@@ -45,7 +45,7 @@
 					<li>• 3 pours for 60% (strength)</li>
 					<li>• Traditional timing (45s intervals)</li>
 				</ul>
-				<Button class="w-full" on:click|stopPropagation={() => selectMode('simple')}>
+				<Button class="w-full" on:click={(e) => { e.stopPropagation(); selectMode('simple'); }}>
 					Choose Simple Mode
 				</Button>
 			</CardContent>
@@ -68,7 +68,7 @@
 					<li>• 40% phase distribution control</li>
 					<li>• Temperature and timing customization</li>
 				</ul>
-				<Button class="w-full" on:click|stopPropagation={() => selectMode('advanced')}>
+				<Button class="w-full" on:click={(e) => { e.stopPropagation(); selectMode('advanced'); }}>
 					Choose Advanced Mode
 				</Button>
 			</CardContent>
